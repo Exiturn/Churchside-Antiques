@@ -1,0 +1,15 @@
+.navContainer {
+    @apply flex justify-between items-center w-screen py-5 px-[0.75rem] md:px-[2rem] lg:px-[3.75rem] text-[16px] md:text-[18px] lg:text-[20px]
+}
+
+.navList {
+    @apply hidden md:flex gap-[2rem] lg:gap-[3.75rem]
+}
+
+.navText {
+    @apply hover:cursor-pointer hover:text-black transition-all duration-150 ease-in-out
+}
+
+.navImg {
+    @apply w-[10rem] md:w-[15rem] lg:w-[12rem]
+}

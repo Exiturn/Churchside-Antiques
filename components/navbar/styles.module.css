@@ -1,5 +1,5 @@
 .navContainer {
-    @apply flex justify-between items-center w-screen py-5 px-[0.75rem] md:px-[2rem] lg:px-[3.75rem] text-[16px] md:text-[18px] lg:text-[20px]
+    @apply flex justify-between items-center w-screen py-5 px-[0.75rem] md:px-[2rem] lg:px-[3.75rem] text-[14px] md:text-[16px] lg:text-[18px]
 }
 
 .navList {

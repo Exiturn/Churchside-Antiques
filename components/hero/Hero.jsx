@@ -1,8 +1,13 @@
 import styles from "./styles.module.css";
 
 const Hero = () => {
+
+  const paddingTop = {
+    paddingTop: 'calc(12vh + 1.25rem)'
+  }
+
   return (
-    <container className={styles.heroContainer}>
+    <container className={styles.heroContainer} style={paddingTop}>
       <section className="flex flex-col md:flex-row justify-between items-center md:items-start w-full">
         <h1 className="text-center md:text-start text-[2.5rem] md:text-[3.5rem] lg:text-[7.5vw] tracking-[-5px] md:tracking-[-7px] xl:tracking-[-11.5px] leading-[85.28%]">
           Gold and Antiques: <br />
@@ -67,7 +72,7 @@ const Hero = () => {
         </div>
         <div>
           <p className="font-medium">Telephone</p>
-          <p>01234567890</p>
+          <p>01270-780822</p>
         </div>
         <div className="mt-2 sm:mt-0">
           <p className="font-medium">Email</p>

@@ -1,3 +1,4 @@
+import About from '@/components/about/About'
 import Background from '@/components/background/Background'
 import Hero from '@/components/hero/Hero'
 import Navbar from '@/components/navbar/Navbar'
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Background/>
+      <About />
     </main>
   )
 }

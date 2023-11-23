@@ -87,7 +87,7 @@ const Hero = () => {
       />
       <img
         className="w-[40vh] md:w-[50vh] lg:w-[70vh] top-[12rem] md:top-[50vh] xl:top-[45vh] left-0 absolute z-[2]"
-        src="GoldHandHD.png"
+        src="GoldHandHD.webp"
         alt="Golden Hand"
       />
     </container>

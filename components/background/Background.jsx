@@ -2,7 +2,7 @@ import React from 'react'
 
 const Background = () => {
   const divStyle = {
-    backgroundImage: 'url("gradient-bg.png")',
+    backgroundImage: 'url("gradient-bg.webp")',
     backgroundSize: 'cover',
   };
   return (

@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 const Hero = () => {
 
   const paddingTop = {
-    paddingTop: 'calc(12vh + 1.25rem)'
+    paddingTop: 'calc(13vh + 1rem)'
   }
 
   return (
@@ -18,7 +18,7 @@ const Hero = () => {
           <h2 className="underline underline-offset-4 text-[25px] mb-[1rem]">
             We Buy & Sell
           </h2>
-          <ul>
+          <ul className="text-[16px] xl:text-[20px]">
             <li>Scrap Gold & Silver</li>
             <li>Wrist & Pocket Watches</li>
             <li>Clocks</li>

@@ -16,6 +16,26 @@
   }
 }
 
+@font-face {
+  font-family: 'NeueHaasDisplay';
+  src: url('/fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueHaasDisplayBlack';
+  src: url('/fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NeueHaasDisplayBlack';
+  src: url('/fonts/NeueHaasDisplayBlack.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -29,13 +49,18 @@
 
 body {
   overflow-x: hidden;
+  font-family: 'NeueHaasDisplay', sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 350;
+  font-weight: 200;
   line-height: normal;
-  letter-spacing: -1.5px;
+  letter-spacing: -0.5px;
 }
 
 .background {
   background-image: "url(background-bg.png)";
+}
+
+.bold {
+  @apply font-bold tracking-[0.15px]
 }

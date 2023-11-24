@@ -1,5 +1,5 @@
 .navContainer {
-    @apply absolute top-0 left-0 flex justify-between items-center w-full py-5 px-[0.75rem] md:px-[2rem] lg:px-[3.75rem] text-[14px] md:text-[16px] lg:text-[18px]
+    @apply absolute top-0 left-0 flex justify-between items-center w-full py-2 md:py-5 px-[0.75rem] md:px-[2rem] lg:px-[3.75rem] text-[14px] md:text-[16px] lg:text-[18px]
 }
 
 .navList {

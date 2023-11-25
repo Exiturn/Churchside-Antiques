@@ -1,4 +1,5 @@
 import styles from './styles.module.css'
+import Menu from '../navMenu/Menu'
 
 const Navbar = () => {
   return (
@@ -13,7 +14,8 @@ const Navbar = () => {
         </ul>
 
         <div>
-            <p className={styles.navText}>Menu</p>
+            {/* <p className={styles.navText}>Menu</p> */}
+            <Menu />
         </div>
     </nav>
   )

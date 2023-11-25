@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Background = () => {
   const divStyle = {
     backgroundImage: 'url("gradient-bg.webp")',

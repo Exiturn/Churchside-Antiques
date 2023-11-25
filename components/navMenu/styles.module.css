@@ -1,0 +1,3 @@
+.menuText {
+    @apply hover:cursor-pointer hover:text-black transition-all duration-150 ease-in-out
+}

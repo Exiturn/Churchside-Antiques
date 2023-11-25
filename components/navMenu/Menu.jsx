@@ -22,7 +22,7 @@ const Menu = () => {
       
 
       <div
-        className={`flex justify-center items-center flex-col w-full md:w-[35rem] h-screen bg-[#D7BB8E] fixed top-0 right-0 z-10 transition-transform will-change-transform duration-300 ease-linear ${
+        className={`flex justify-center items-center flex-col w-full md:w-[35rem] h-screen bg-[#D7BB8E] fixed top-0 right-0 z-10 transition-transform will-change-transform duration-500 ease-in-out ${
           menuState.isMenuOpen
             ? "translate-x-[0]"
             : "translate-x-[100%]"

@@ -6,7 +6,7 @@ const accordionData = [
         title: 'Nantwich Clocks',
         image: images.nantwichClock,
         imageAlt: 'nantwich clocks',
-        paragraph: 'Simon is a specialist collector of clocks that were made in Nantwich. If you have one we guarantee to pay more than anyone else. Nantwich was a major clockmaking centre in the 18th century. Simon has one of the largest collections and is keen to buy more. The rarest Nantwich clocks are the Mantel or Bracket clocks. Anything considered no matter the condition.'
+        paragraph: 'Simon is a specialist collector of clocks that were made in Nantwich. If you have one we guarantee to pay more than anyone else. Simon has one of the largest collections and is keen to buy more. The rarest Nantwich clocks are the Mantel or Bracket clocks. Anything considered no matter the condition.'
     },
     {
         id: '2',

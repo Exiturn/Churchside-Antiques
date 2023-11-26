@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className={styles.aboutContainer}>
       <div className="w-full h-auto absolute top-0 left-0 z-[-1]">
-        <h1 className="text-[#D6B174] italic text-[25vw] text-opacity-20 mt-[-1rem] md:mt-[-5rem]">
+        <h1 className="text-[#D6B174] italic text-[25vw] xl:text-[25vw] text-opacity-20 mt-[-1rem] lg:mt-[-3.5rem] xl:mt-[-4.5rem]">
           About Us
         </h1>
       </div>

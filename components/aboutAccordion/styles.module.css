@@ -1,3 +1,31 @@
+.accordionContainer {
+    @apply w-full overflow-hidden
+}
+
+.accordionHeader {
+    @apply flex justify-between items-center w-full px-5 py-2 border-b border-white bg-[#D7BB8E]
+}
+
+.accordionTitle {
+    @apply text-white text-[3.5vh] lg:text-[2.5rem]
+}
+
+.accordionIcon {
+    @apply text-[1.5rem] md:text-[3rem] hover:cursor-pointer
+}
+
+.accordionImageContainer {
+    @apply flex justify-between items-start p-[1rem] h-full
+}
+
+.accordionImage {
+    @apply h-[10rem] lg:h-[25vw] rounded-xl
+}
+
+.accordionParagraphContainer {
+    @apply text-[#D7BB8E] max-w-[50%]
+}
+
 .accordionContent {
     transition: height .7s ease-in-out
 }

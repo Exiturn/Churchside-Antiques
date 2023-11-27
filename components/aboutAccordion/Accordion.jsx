@@ -15,18 +15,18 @@ const Accordion = ({ title, paragraph, image, alt, id }) => {
 
   return (
     <div
-      className={`w-full overflow-hidden ${
+      className={`${styles.accordionContainer} ${
         id === "2" || id === "3" ? "mt-0" : "mt-8"
       }`}
     >
       <div
-        className={`flex justify-between items-center w-full px-5 py-2 border-b border-white bg-[#D7BB8E] ${
+        className={`${styles.accordionHeader} ${
           id === "1" && "rounded-t-xl"
         }`}
       >
-        <h2 className="text-white text-[3.5vh] lg:text-[4rem]">{title}</h2>
+        <h2 className={styles.accordionTitle}>{title}</h2>
         <span
-          className="text-[1.5rem] md:text-[3rem] hover:cursor-pointer"
+          className={styles.accordionIcon}
           onClick={toggleAcc}
         >
           {accState.isAccOpen ? "-" : "+"}
@@ -43,13 +43,13 @@ const Accordion = ({ title, paragraph, image, alt, id }) => {
             : { height: "0px" }
         }
       >
-        <div className="flex justify-between items-start p-[1rem] h-full">
+        <div className={styles.accordionImageContainer}>
           <img
-            className="h-[10rem] lg:h-[25vw] rounded-xl"
+            className={styles.accordionImage}
             src={image.src}
             alt={alt}
           />
-          <p className="text-[#D7BB8E] max-w-[50%]">{paragraph}</p>
+          <p className={styles.accordionParagraphContainer}>{paragraph}</p>
         </div>
       </div>
     </div>

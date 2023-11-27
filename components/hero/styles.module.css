@@ -1,3 +1,55 @@
 .heroContainer {
     @apply flex flex-col justify-start md:justify-between items-start md:items-end w-full h-screen pb-[2rem] px-[0.75rem] md:px-[2rem] lg:px-[3.75rem] text-[14px] md:text-[16px] lg:text-[18px]
 }
+
+.heroTopContainer {
+    @apply flex flex-col md:flex-row justify-between items-center md:items-start w-full
+}
+
+.heroHeader {
+    @apply text-center md:text-start text-[2.5rem] md:text-[3.5rem] lg:text-[7.5vw] tracking-[-2.5px] md:tracking-[-5px] leading-[85.28%]
+}
+
+.heroListContainer {
+    @apply hidden md:flex flex-col
+}
+
+.heroListHeader {
+    @apply underline underline-offset-4 text-[25px] mb-[1rem] 
+}
+
+.heroList {
+    @apply text-[16px] xl:text-[18px]
+}
+
+.heroCtaContainer {
+    @apply flex justify-between w-full md:w-[50vw] mt-[20vh] sm:mt-[22vh] md:mt-[3rem] xl:mt-[6rem] gap-10
+}
+
+.heroCtaButton {
+    @apply mt-[1rem] rounded-[30px] bg-white text-[#E9B139] px-[2.25rem] py-[0.75rem] tracking-[-0.75px] md:tracking-[-0.5px] hover:cursor-pointer hover:bg-black hover:text-white transition-all
+}
+
+.heroMobileListContainer {
+    @apply hidden sm:flex md:hidden flex-col
+}
+
+.heroMobileListHeader {
+    @apply underline underline-offset-4 text-[20px] mb-[0.5rem] font-normal
+}
+
+.heroMobileList { 
+    @apply flex justify-start items-start flex-wrap gap-x-5 gap-y-1 italic
+}
+
+.heroContactContainer {
+    @apply flex flex-wrap justify-between w-full md:w-[50vw] mt-[5vh] sm:mt-[3vh] xl:mt-[4rem]
+}
+
+.heroBgLine {
+    @apply w-screen h-screen absolute top-0 left-0 -z-[2]
+}
+
+.heroBg {
+    @apply w-[40vh] sm:w-[35vh] md:w-[50vh] lg:w-[70vh] top-[10rem] sm:top-[11rem] md:top-[50vh] xl:top-[45vh] left-0 absolute z-[2]
+}

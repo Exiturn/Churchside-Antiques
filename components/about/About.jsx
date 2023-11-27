@@ -5,21 +5,21 @@ import accordionData from "../aboutAccordion/accordionData.js";
 const About = () => {
   return (
     <div className={styles.aboutContainer}>
-      <div className="w-full h-auto absolute top-0 left-0 z-[-1]">
-        <h1 className="text-[#D6B174] italic text-[25vw] xl:text-[25vw] text-opacity-20 mt-[-1rem] lg:mt-[-3.5rem] xl:mt-[-4.5rem]">
+      <div className={styles.aboutBackground}>
+        <h1 className={styles.aboutHeader}>
           About Us
         </h1>
       </div>
 
-      <main className="pt-[13vw] text-[#C69025] flex flex-col justify-center items-start w-full">
-        <h2 className="text-[#C69025] text-[4.5vh] md:text-[3.5vw]">
+      <main className={styles.aboutContentContainer}>
+        <h2 className={styles.abouth2}>
           Free Service. Free Valuations.{" "}
-          <span className="underline text-inherit underline-offset-[0.5rem] md:underline-offset-[1rem] bold">
+          <span className={`bold ${styles.abouth2_highlight}`}>
             No Obligation.
           </span>
         </h2>
 
-        <div className="flex justify-between items-start w-full text-[#C69025] mt-[5vw] gap-x-[5vw]">
+        <div className={styles.aboutContent}>
           <div className="max-w-[40vw]">
             <p className="text-[#C69025]">
               Simon Thompson was born in Nantwich and has been an auctioneer and
@@ -53,7 +53,7 @@ const About = () => {
           </div>
         </div>
 
-        <section className="w-full self-center m-auto">
+        <section className={styles.aboutAccordionContainer}>
           {accordionData.map(({ title, image, alt, paragraph, id }) => (
             <Accordion
               id={id}

@@ -15,10 +15,10 @@ const Hero = () => {
         </h1>
 
         <div className="hidden md:flex flex-col">
-          <h2 className="underline underline-offset-4 text-[25px] mb-[1rem] bold">
+          <h2 className="underline underline-offset-4 text-[25px] mb-[1rem]">
             We Buy & Sell
           </h2>
-          <ul className="text-[16px] xl:text-[18px] italic">
+          <ul className="text-[16px] xl:text-[18px]">
             <li>Scrap Gold & Silver</li>
             <li>Wrist & Pocket Watches</li>
             <li>Clocks</li>

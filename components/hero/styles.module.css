@@ -51,5 +51,5 @@
 }
 
 .heroBg {
-    @apply w-[40vh] sm:w-[35vh] md:w-[50vh] lg:w-[70vh] top-[10rem] sm:top-[11rem] md:top-[50vh] xl:top-[45vh] left-0 absolute z-[2]
+    @apply w-[40vh] sm:w-[35vh] md:w-[50vh] lg:w-[70vh] top-[10rem] sm:top-[12rem] md:top-[50vh] xl:top-[45vh] left-0 absolute z-[2]
 }

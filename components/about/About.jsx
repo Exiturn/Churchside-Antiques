@@ -29,7 +29,7 @@ const About = () => {
             <br />
             <p className="text-[#C69025]">
               Simon can now be found at our large new stand inside Nantwich
-              Market. <br />
+              Market. <br /> <br />
               <span className="text-inherit bold">
                 Open on Thursday 9am-3pm and Saturday 9am- 4pm.
               </span>
@@ -39,7 +39,7 @@ const About = () => {
             <p className="text-inherit">
               We are now paying incredibly high prices for scrap gold and
               silver. Tangled chains, odd earrings, broken bits, foreign gold,
-              we guarantee to buy it all! If your items are too numerous or
+              we guarantee to buy it all! <br /> <br /> If your items are too numerous or
               fragile or you would prefer a home visit, Simon will be pleased to oblige.
             </p>
             <br />

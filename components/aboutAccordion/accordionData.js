@@ -13,7 +13,7 @@ const accordionData = [
         title: 'Nantwich Paintings',
         image: images.nantwichClock,
         imageAlt: 'nantwich paintings',
-        paragraph: 'Herbert St.Jon Jones was a Nantwich artist who painted hundreds of local street scenes between about 1900 and 1930. Simon will pay top auction estimates for any such paintings. All paintings by Nantwich artist Herbert St.John Jones are highly sought after.'
+        paragraph: 'Herbert St.John Jones was a Nantwich artist who painted hundreds of local street scenes between about 1900 and 1930. Simon will pay top auction estimates for any such paintings. All paintings by Nantwich artist Herbert St.John Jones are highly sought after.'
     },
     {
         id: '3',

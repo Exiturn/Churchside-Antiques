@@ -13,7 +13,7 @@ const About = () => {
 
       <main className={styles.aboutContentContainer}>
         <h2 className={styles.abouth2}>
-          Free Service. <br className="md:hidden"/> Free Valuations. <br className="md:hidden" />
+          Free Service. <br className="md:hidden"/> Free Valuations. <br className="md:hidden"/>
           <span className={`bold ${styles.abouth2_highlight}`}>
             No Obligation.
           </span>

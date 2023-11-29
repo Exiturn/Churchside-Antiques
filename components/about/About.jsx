@@ -13,7 +13,7 @@ const About = () => {
 
       <main className={styles.aboutContentContainer}>
         <h2 className={styles.abouth2}>
-          Free Service. Free Valuations.{" "}
+          Free Service. <br className="md:hidden"/> Free Valuations. <br className="md:hidden" />
           <span className={`bold ${styles.abouth2_highlight}`}>
             No Obligation.
           </span>
@@ -40,11 +40,11 @@ const About = () => {
               We are now paying incredibly high prices for scrap gold and
               silver. Tangled chains, odd earrings, broken bits, foreign gold,
               we guarantee to buy it all! If your items are too numerous or
-              fragile or you would prefer a home visit.
+              fragile or you would prefer a home visit, Simon will be pleased to oblige.
             </p>
             <br />
             <p className="text-inherit">
-              Simon will be pleased to oblige.
+              
               <span className="bold text-inherit">
                 {" "}
                 Even higher prices for items that can be resold.

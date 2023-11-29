@@ -1,0 +1,11 @@
+.reviewsContainer {
+    @apply flex flex-col justify-start md:justify-between items-start w-screen h-screen pt-5 pb-[8vh] px-[1rem] md:px-[2rem] lg:px-[3.75rem] text-[14px] md:text-[16px] lg:text-[18px] relative border-t-2 border-[#D6B174]
+}
+
+.reviewsBackground {
+    @apply w-full h-auto absolute top-0 left-0 z-[-1]
+}
+
+.reviewsHeader {
+    @apply text-[#D6B174] italic text-[25vw] xl:text-[25vw] text-opacity-20 mt-[-1rem] lg:mt-[-3.5rem] xl:mt-[-4.5rem]
+}

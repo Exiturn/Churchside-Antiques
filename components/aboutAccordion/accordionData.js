@@ -18,9 +18,9 @@ const accordionData = [
     {
         id: '3',
         title: 'Pottery',
-        image: images.nantwichClock,
+        image: images.nantwichPottery,
         imageAlt: 'pottery',
-        paragraph: 'Lorem ipsum'
+        paragraph: 'Whilst most ornaments have dropped in popularity we continue to pay high prices for Doulton Lambeth and Moorcroft pottery. Asian ceramics, such as Chinese blue and white vases can be valuable so please send photos for a free appraisal.'
     }
 ];
 

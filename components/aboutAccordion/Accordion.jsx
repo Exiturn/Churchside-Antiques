@@ -43,9 +43,9 @@ const Accordion = ({ title, paragraph, image, alt, id }) => {
             : { height: "0px" }
         }
       >
-        <div className={styles.accordionImageContainer}>
+        <div className={`${styles.accordionImageContainer}`}>
           <img
-            className={styles.accordionImage}
+            className={`${styles.accordionImage} ${id === '3' ? 'w-[8rem] md:w-[30rem] h-[7.5rem] lg:h-[25vw]' : 'h-[10rem] lg:h-[25vw]'}`}
             src={image.src}
             alt={alt}
           />

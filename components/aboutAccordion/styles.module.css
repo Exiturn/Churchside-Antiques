@@ -19,7 +19,7 @@
 }
 
 .accordionImage {
-    @apply h-[10rem] lg:h-[25vw] rounded-xl
+    @apply rounded-xl
 }
 
 .accordionParagraphContainer {

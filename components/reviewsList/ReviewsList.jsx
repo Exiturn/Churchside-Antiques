@@ -27,8 +27,7 @@ const ReviewsList = () => {
         <p className="text-inherit text-[18px] w-[70%]">
           {" "}
           <span className="text-inherit md:text-[1.5rem] bold">“ </span>
-          Simon kindly came over to Chester and bought my Rolex watch - He paid
-          more than 2 previous prices & had been quoted. Very Pleased!{" "}
+          Simon kindly came over to Chester and bought my Rolex watch - he paid more than the 2 previous offers we had had from Chester jewellers. Very Pleased!{" "}
           <span className="text-inherit bold md:text-[1.5rem]"> ”</span>
         </p>
         <h2 className="text-inherit italic md:mt-[2rem]">- John Jones</h2>

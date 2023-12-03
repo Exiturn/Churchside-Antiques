@@ -1,0 +1,19 @@
+.banner {
+   @apply w-full h-[20vh] md:h-[12rem] relative
+}
+
+.image {
+    @apply w-full h-full object-cover absolute -z-10 top-0 left-0
+}
+
+.header {
+    @apply text-[4.5vh] md:text-[3.5vw]
+}
+
+.paragraph {
+    @apply mt-[1rem] flex justify-start gap-x-[10vw] md:gap-x-[20vw] w-full
+}
+
+.text {
+    @apply text-[16px] md:text-[1.5vw] italic
+}

@@ -2,6 +2,7 @@ import About from '@/components/about/About'
 import Background from '@/components/background/Background'
 import Hero from '@/components/hero/Hero'
 import Navbar from '@/components/navbar/Navbar'
+import PaymentBanner from '@/components/paymentBanner/PaymentBanner'
 import Pricing from '@/components/pricing/Pricing'
 import Reviews from '@/components/reviews/Reviews'
 
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Reviews />
       <Pricing />
+      <PaymentBanner />
     </main>
   )
 }

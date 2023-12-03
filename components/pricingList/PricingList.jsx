@@ -10,7 +10,7 @@ const PricingList = () => {
   const { events } = useDraggable(ref);
 
   return (
-    <section className="w-full mt-[2.5vw] pb-[4rem]">
+    <section className="w-full mt-[2.5vw]">
       <ul className="flex justify-start items-center flex-wrap">
         {categories.map((item, index) => (
           <li

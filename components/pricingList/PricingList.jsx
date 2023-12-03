@@ -11,7 +11,7 @@ const PricingList = () => {
 
   return (
     <section className="w-full mt-[2.5vw] pb-[4rem]">
-      <ul className="flex justify-start items-center">
+      <ul className="flex justify-start items-center flex-wrap">
         {categories.map((item, index) => (
           <li
             className={`text-[#D6B174] text-center rounded-[2rem] py-[0.5rem] px-[1.5rem] border-[1.25px] border-[#D6B174] hover:cursor-pointer hover:bg-[#D6B174] hover:text-white transition-colors duration-200 ease-in-out ${
@@ -30,14 +30,14 @@ const PricingList = () => {
         {...events}
       >
         {pricingItems.map((item, index) => (
-          <div className={`min-w-[20vw] text-[#C69025]`} key={index}>
+          <div className={`min-w-[20vh] md:min-w-[20vw] text-[#C69025]`} key={index}>
             <img
               className="w-full max-h-[60vh]"
               src={item.image.src}
               alt="item"
             />
-            <h2 className="text-inherit">{item.name}</h2>
-            <p className="text-inherit">min. of {item.price} / Any Condition</p>
+            <h2 className="text-inherit mt-[1rem] bold">{item.name}</h2>
+            <p className="text-inherit mt-[1rem]">min. of <span className="bold text-inherit">£{item.price} / Any Condition</span></p>
           </div>
         ))}
       </div>

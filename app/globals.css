@@ -76,3 +76,16 @@ body {
 .sectionHeader {
   @apply text-[#D6B174] italic text-[25vw] xl:text-[25vw] text-opacity-20 mt-[-1rem] lg:mt-[-3.5rem] xl:mt-[-4.5rem]
 }
+
+.list::-webkit-scrollbar {
+  width: 100%;
+  height: 0.2em;
+}
+
+.list::-webkit-scrollbar-track {
+  background-color: #D6B17440;
+}
+
+.list::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px #C69025;
+}

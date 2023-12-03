@@ -9,7 +9,7 @@ const ReviewsList = () => {
 
   return (
     <div
-      className={`flex justify-start items-center flex-row overflow-x-scroll mt-[5vw] gap-x-[1.25rem] w-full pb-10 ${styles.list}`}
+      className={`flex justify-start items-center flex-row overflow-x-scroll mt-[5vw] gap-x-[1.25rem] w-full pb-10 list`}
       ref={ref}
       {...events}
     >

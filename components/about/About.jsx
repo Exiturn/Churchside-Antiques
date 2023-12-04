@@ -54,12 +54,12 @@ const About = () => {
         </div>
 
         <section className={styles.aboutAccordionContainer}>
-          {accordionData.map(({ title, image, alt, paragraph, id }) => (
+          {accordionData.map(({ title, image, imageAlt, paragraph, id }) => (
             <Accordion
               id={id}
               title={title}
               image={image}
-              alt={alt}
+              alt={imageAlt}
               paragraph={paragraph}
             />
           ))}

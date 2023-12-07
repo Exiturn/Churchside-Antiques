@@ -41,8 +41,6 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          handleClick();
-          alertInfo();
           setForm({
             name: "",
             email: "",
@@ -51,7 +49,6 @@ const Contact = () => {
         },
         (error) => {
           setLoading(false);
-          alertError();
         }
       );
   };
@@ -71,11 +68,15 @@ const Contact = () => {
           Want to book a home visit?
         </h2>
 
-        <div className="flex justify-between items-center w-full">
-          <form ref={formRef} onSubmit={handleSubmit}>
-            <div className="flex flex-col md:flex-row justify-between md:gap-x-[10rem] w-full">
-              <div className="md:w-[30%]">
-                <label className="flex flex-col mt-4 pointer-events-none text-[#C69025]">
+        <div className="flex flex-col md:flex-row justify-between items-start w-full mt-[2.5vw]">
+          <form
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="w-full border-b-2 pb-[5vw] md:pb-0 md:border-b-0 md:border-r-2 border-[#D6B174] pr-[5vw]"
+          >
+            <div className="flex flex-col lg:flex-row justify-between md:gap-x-[3rem] w-full">
+              <div className="md:w-full lg:w-[60%]">
+                <label className="flex flex-col pointer-events-none text-[#C69025]">
                   Name
                 </label>
                 <input
@@ -87,8 +88,8 @@ const Contact = () => {
                   className="w-full bg-[#D6B174] rounded-md bg-opacity-10 backdrop-filter backdrop-blur-lg p-2 mt-2 placeholder:text-[#D6B174] text-[#C69025]"
                 />
               </div>
-              <div className="md:w-[40%]">
-                <label className="flex flex-col mt-4 pointer-events-none text-[#C69025]">
+              <div className="md:w-full lg:w-[60%]">
+                <label className="flex flex-col pointer-events-none text-[#C69025]">
                   Email
                 </label>
                 <input
@@ -102,7 +103,9 @@ const Contact = () => {
               </div>
             </div>
             <div className="flex flex-col mt-4 w-full">
-              <label className="pointer-events-none text-[#C69025]">Message</label>
+              <label className="pointer-events-none text-[#C69025]">
+                Message
+              </label>
               <textarea
                 name="message"
                 rows="10"
@@ -112,10 +115,38 @@ const Contact = () => {
                 className="outline-none w-full mt-2 border-none p-2 bg-[#D6B174] rounded-md bg-opacity-10 backdrop-filter backdrop-blur-lg placeholder:text-[#D6B174] text-[#C69025]"
               />
             </div>
-            <button type="submit" className="mt-4 py-3 px-8 border-[1px] rounded-full bg-[#D6B174] hover:bg-[#C69025] transition-colors duration-150">
+            <button
+              type="submit"
+              className="mt-4 py-3 px-8 border-[1px] rounded-full bg-[#D6B174] hover:bg-[#C69025] transition-colors duration-150"
+            >
               {loading ? "Sending..." : "Send"}
             </button>
           </form>
+
+          <section className="w-full py-[5vw] md:py-0 md:pl-[5vw]">
+            <div className="flex flex-row w-full justify-start gap-x-[10vw]">
+              <div className="text-[#C69025]">
+                <h2 className="text-inherit bold">Mobile</h2>
+                <p className="text-inherit">07976612247</p>
+              </div>
+              <div className="text-[#C69025]">
+                <h2 className="text-inherit bold">Telephone</h2>
+                <p className="text-inherit">01270-780822</p>
+              </div>
+            </div>
+
+            <div className="text-[#C69025] mt-4">
+              <h2 className="text-inherit bold">Email</h2>
+              <p className="text-inherit">churchsideantiques@gmail.com</p>
+            </div>
+
+            <p className="mt-8 text-[#C69025]">
+              For free valuations, you are welcome to bring items to the market
+              or Simon will be pleased to visit you <span className="bold text-inherit">free of charge or any
+              obligation</span>. <br /> <br /> Alternatively, you can send photos and get a valuation
+              that way.
+            </p>
+          </section>
         </div>
       </main>
     </div>

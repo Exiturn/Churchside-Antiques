@@ -21,7 +21,7 @@ const ReviewsList = () => {
           offered and the service provided.{" "}
           <span className="text-inherit bold md:text-[1.5rem]"> ”</span>
         </p>
-        <h2 className="text-inherit italic md:mt-[2rem]">- John Jones</h2>
+        <h2 className="text-inherit italic md:mt-[2rem]">- John Huntbach</h2>
       </li>
       <li className="w-full min-w-[75%] md:min-w-[35vw] flex flex-col justify-center md:items-start text-[#C69025]">
         <p className="text-inherit text-[16px] md:text-[18px] w-[70%]">
@@ -30,7 +30,7 @@ const ReviewsList = () => {
           Simon kindly came over to Chester and bought my Rolex watch - he paid more than the 2 previous offers we had had from Chester jewellers. Very Pleased!{" "}
           <span className="text-inherit bold md:text-[1.5rem]"> ”</span>
         </p>
-        <h2 className="text-inherit italic md:mt-[2rem]">- John Jones</h2>
+        <h2 className="text-inherit italic md:mt-[2rem]">- M. Edwards</h2>
       </li>
       <li className="w-full min-w-[75%] md:min-w-[35vw] flex flex-col justify-center md:items-start text-[#C69025]">
         <p className="text-inherit text-[16px] md:text-[18px] w-[70%]">
@@ -39,7 +39,7 @@ const ReviewsList = () => {
           Very patient, polite and impressive service!{" "}
           <span className="text-inherit bold md:text-[1.5rem]"> ”</span>
         </p>
-        <h2 className="text-inherit italic md:mt-[2rem]">- John Jones</h2>
+        <h2 className="text-inherit italic md:mt-[2rem]">- L. Dang</h2>
       </li>
       <li className="w-full min-w-[75%] md:min-w-[35vw] flex flex-col justify-center md:items-start text-[#C69025]">
         <p className="text-inherit text-[16px] md:text-[18px] w-[70%]">
@@ -48,7 +48,7 @@ const ReviewsList = () => {
           5/5 Star Service{" "}
           <span className="text-inherit bold md:text-[1.5rem]"> ”</span>
         </p>
-        <h2 className="text-inherit italic md:mt-[2rem]">- John Jones</h2>
+        <h2 className="text-inherit italic md:mt-[2rem]">- Gwen Jones</h2>
       </li>
     </div>
   );

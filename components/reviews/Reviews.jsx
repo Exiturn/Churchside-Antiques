@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 const Reviews = () => {
   return (
-    <div className={`sectionContainer border-t-[1px] border-[#D6B174]`}>
+    <div className={`sectionContainer border-t-[1px] border-[#D6B174]`} id="Reviews">
       <div className={`sectionBackground`}>
         <h1 className={`sectionHeader`}>Reviews</h1>
       </div>

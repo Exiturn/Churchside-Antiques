@@ -23,7 +23,7 @@
 }
 
 .heroCtaContainer {
-    @apply flex justify-between w-full md:w-[50vw] mt-[20vh] sm:mt-[22vh] md:mt-[3rem] xl:mt-[6rem] gap-10
+    @apply flex justify-between w-full md:w-[50vw] mt-[20vh] sm:mt-[22vh] md:mt-[3rem] xl:mt-[4rem] gap-10
 }
 
 .heroCtaButton {
@@ -43,7 +43,7 @@
 }
 
 .heroContactContainer {
-    @apply flex flex-wrap justify-between w-full md:w-[50vw] mt-[5vh] sm:mt-[3vh] xl:mt-[4rem]
+    @apply hidden lg:flex flex-wrap justify-between w-full md:w-[50vw] mt-[2.5vh] sm:mt-[1vh] xl:mt-[1rem]
 }
 
 .heroBgLine {

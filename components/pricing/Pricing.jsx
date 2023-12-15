@@ -2,7 +2,7 @@ import PricingList from "../pricingList/PricingList";
 
 const Pricing = () => {
   return (
-    <div className={`sectionContainer border-t-[1px] border-[#D6B174]`}>
+    <div className={`sectionContainer border-t-[1px] border-[#D6B174]`} id="Pricing">
       <div className={`sectionBackground`}>
         <h1 className={`sectionHeader`}>Pricing</h1>
       </div>

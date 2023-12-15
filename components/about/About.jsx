@@ -4,7 +4,7 @@ import accordionData from "../aboutAccordion/accordionData.js";
 
 const About = () => {
   return (
-    <div className={`sectionContainer`}>
+    <div className={`sectionContainer`} id="About">
       <div className={`sectionBackground`}>
         <h1 className={`sectionHeader`}>
           About Us

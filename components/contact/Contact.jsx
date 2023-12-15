@@ -54,7 +54,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="sectionContainer h-screen">
+    <div className="sectionContainer h-screen" id="Contact">
       <div className={`sectionBackground`}>
         <h1
           className={`text-[#D6B174] italic text-opacity-20 mt-[-1rem] lg:mt-[-3.5rem] xl:mt-[-3rem] text-[20vw]`}

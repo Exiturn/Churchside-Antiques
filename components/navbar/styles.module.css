@@ -11,5 +11,5 @@
 }
 
 .navImg {
-    @apply w-[7.5rem] sm:w-[10rem] md:w-[15rem] lg:w-[12rem]
+    @apply w-[7.5rem] sm:w-[10rem] md:w-[10rem] lg:w-[12rem]
 }

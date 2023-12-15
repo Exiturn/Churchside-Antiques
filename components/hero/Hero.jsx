@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 const Hero = () => {
 
   const paddingTop = {
-    paddingTop: 'calc(13vh + 0.5rem)'
+    paddingTop: 'calc(12.5vh + 1.5rem)'
   }
 
   return (
@@ -37,7 +37,7 @@ const Hero = () => {
             ask!
           </p>
           <button className={styles.heroCtaButton}>
-            Learn More
+            <a href="#About">Learn More</a>
           </button>
         </div>
 

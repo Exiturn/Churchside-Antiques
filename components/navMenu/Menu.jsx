@@ -6,6 +6,15 @@ import { IconContext } from "react-icons";
 
 const Menu = () => {
   const [menuState, setMenuState] = useState({ isMenuOpen: false });
+  const [active, setActive] = useState("");
+
+  const navClick = (section) => {
+    setActive(section);
+    setMenuState((prevState) => ({
+      ...prevState,
+      isMenuOpen: !prevState.isMenuOpen,
+    }));
+  };
 
   const toggleMenu = () => {
     setMenuState((prevState) => ({
@@ -17,7 +26,7 @@ const Menu = () => {
   return (
     <div>
       <div onClick={toggleMenu}>
-        <AiOutlineMenu size={25} className="cursor-pointer" />
+        <AiOutlineMenu size={20} className="cursor-pointer" />
       </div>
 
       <div
@@ -41,10 +50,26 @@ const Menu = () => {
         </div>
 
         <ul className={styles.menuList}>
-          <h2 className={styles.menuNavItem}>About</h2>
-          <h2 className={styles.menuNavItem}>Reviews</h2>
-          <h2 className={styles.menuNavItem}>Pricing</h2>
-          <h2 className={styles.menuNavItem}>Contact Us</h2>
+          <li className={styles.menuNavItem}>
+            <a href={`#${active}`} onClick={() => navClick("About")}>
+              About
+            </a>
+          </li>
+          <li className={styles.menuNavItem}>
+            <a href={`#${active}`} onClick={() => navClick("Reviews")}>
+              Reviews
+            </a>
+          </li>
+          <li className={styles.menuNavItem}>
+            <a href={`#${active}`} onClick={() => navClick("Pricing")}>
+              Pricing
+            </a>
+          </li>
+          <li className={styles.menuNavItem}>
+            <a href={`#${active}`} onClick={() => navClick("Contact")}>
+              Contact Us
+            </a>
+          </li>
         </ul>
       </div>
     </div>

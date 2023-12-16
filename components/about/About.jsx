@@ -1,19 +1,19 @@
 import styles from "./styles.module.css";
 import Accordion from "../aboutAccordion/Accordion";
 import accordionData from "../aboutAccordion/accordionData.js";
+import * as images from "../../public/antiqueAssets.js";
 
 const About = () => {
   return (
     <div className={`sectionContainer`} id="About">
       <div className={`sectionBackground`}>
-        <h1 className={`sectionHeader`}>
-          About Us
-        </h1>
+        <h1 className={`sectionHeader`}>About Us</h1>
       </div>
 
       <main className={styles.aboutContentContainer}>
         <h2 className={`${styles.abouth2} bold`}>
-          Free Service. <br className="md:hidden"/> Free Valuations. <br className="md:hidden"/>
+          Free Service. <br className="md:hidden" /> Free Valuations.{" "}
+          <br className="md:hidden" />
           <span className={`bold italic ${styles.abouth2_highlight}`}>
             No Obligation.
           </span>
@@ -39,12 +39,12 @@ const About = () => {
             <p className="text-inherit">
               We are now paying incredibly high prices for scrap gold and
               silver. Tangled chains, odd earrings, broken bits, foreign gold,
-              we guarantee to buy it all! <br /> <br /> If your items are too numerous or
-              fragile or you would prefer a home visit, Simon will be pleased to oblige.
+              we guarantee to buy it all! <br /> <br /> If your items are too
+              numerous or fragile or you would prefer a home visit, Simon will
+              be pleased to oblige.
             </p>
             <br />
             <p className="text-inherit">
-              
               <span className="bold text-inherit">
                 {" "}
                 Even higher prices for items that can be resold.
@@ -63,6 +63,19 @@ const About = () => {
               paragraph={paragraph}
             />
           ))}
+        </section>
+
+        <section className="py-6 flex justify-between items-center w-full ">
+          <p className="text-[#C69025] max-w-[40vw]">
+            Every Friday we hold antique valuation and gold buying events around{" "}
+            <span className="bold text-inherit">
+              Bramhall, Cheadle, Wilmslow, Hazel Grove and more.
+            </span>{" "}
+            For further details, contact us below!
+          </p>
+          <figure className="overflow-hidden w-[40vw]">
+            <img className="block" src={images.market.src} alt="market stall" />
+          </figure>
         </section>
       </main>
     </div>

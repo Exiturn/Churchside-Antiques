@@ -82,7 +82,7 @@ const Hero = () => {
 
       <img
         className={styles.heroBgLine}
-        src="line.png"
+        src="line.webp"
         alt="line"
       />
       <img

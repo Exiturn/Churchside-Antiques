@@ -127,7 +127,7 @@ const Contact = () => {
             <div className="flex flex-row w-full justify-start gap-x-[10vw]">
               <div className="text-[#C69025]">
                 <h2 className="text-inherit bold">Mobile</h2>
-                <p className="text-inherit">07976612247</p>
+                <p className="text-inherit">07976-612247</p>
               </div>
               <div className="text-[#C69025]">
                 <h2 className="text-inherit bold">Telephone</h2>

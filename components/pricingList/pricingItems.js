@@ -16,7 +16,7 @@ const pricingItems = [
         type: 'Gold'
     },
     {
-        name: 'Silver Tea Set',
+        name: 'Hallmarked Silver',
         image: images.teaset,
         pricing: 'up to',
         price: '£15 per ounce',
@@ -32,8 +32,8 @@ const pricingItems = [
     {
         name: 'Silver Jewellery',
         image: images.silverjewellery,
-        pricing: 'up to',
-        price: '£325 per ounce',
+        pricing: 'min. of',
+        price: '£15 per ounce',
         type: 'Silver'
     },
     {
@@ -44,10 +44,10 @@ const pricingItems = [
         type: 'Watches'
     },
     {
-        name: 'Waltham',
+        name: 'Old Pocket Watches',
         image: images.waltham,
         pricing: 'min. of',
-        price: '£25',
+        price: '£25 to £1000',
         type: 'Watches'
     },
     {

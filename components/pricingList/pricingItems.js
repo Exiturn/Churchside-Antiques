@@ -40,7 +40,7 @@ const pricingItems = [
         name: 'All models of Rolex',
         image: images.watches,
         pricing: 'min. of',
-        price: '500 to £25k',
+        price: '£500 to £25k',
         type: 'Watches'
     },
     {

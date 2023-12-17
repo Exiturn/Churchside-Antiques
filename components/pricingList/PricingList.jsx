@@ -33,7 +33,7 @@ const PricingList = () => {
       >
         {pricingItems.map((item, index) => (
           <div
-            className={`min-w-[30vh] md:min-w-[20vw] text-[#C69025] transition-all duration-200 ease-in-out ${
+            className={`min-w-[30vh] max-w-[30vh] md:min-w-[40vw] md:max-w-[40vw] lg:min-w-[20vw] lg:max-w-[20vw] min-h-[65vh] max-h-[65vh] text-[#C69025] transition-all duration-200 ease-in-out ${
               item.type === type || type === "All" ? "block" : "hidden"
             }`}
             key={index}

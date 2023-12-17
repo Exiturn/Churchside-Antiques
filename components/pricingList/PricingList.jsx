@@ -1,11 +1,12 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 import pricingItems from "../pricingList/pricingItems.js";
 import styles from "./styles.module.css";
 
 const PricingList = () => {
-  const categories = ["All", "Gold", "Silver", "Watches", "Coins", "Pottery"];
+  const categories = ["All", "Gold", "Silver", "Watches", "Coins"];
+  const [type, setType] = useState("All");
   const ref = useRef();
   const { events } = useDraggable(ref);
 
@@ -15,9 +16,10 @@ const PricingList = () => {
         {categories.map((item, index) => (
           <li
             className={`text-[#D6B174] text-center rounded-[2rem] py-[0.5rem] px-[1.5rem] border-[1.25px] border-[#D6B174] hover:cursor-pointer hover:bg-[#D6B174] hover:text-white transition-colors duration-200 ease-in-out ${
-              index === 0 && "bg-[#D6B174] text-white"
+              item === type && "bg-[#D6B174] text-white"
             }`}
             key={index}
+            onClick={() => setType(item)}
           >
             {item}
           </li>
@@ -30,14 +32,26 @@ const PricingList = () => {
         {...events}
       >
         {pricingItems.map((item, index) => (
-          <div className={`min-w-[20vh] md:min-w-[20vw] text-[#C69025]`} key={index}>
-            <img
-              className="w-full max-h-[60vh]"
-              src={item.image.src}
-              alt="item"
-            />
+          <div
+            className={`min-w-[30vh] md:min-w-[20vw] text-[#C69025] transition-all duration-200 ease-in-out ${
+              item.type === type || type === "All" ? "block" : "hidden"
+            }`}
+            key={index}
+          >
+            <figure className="overflow-hidden">
+              <img
+                className="object-cover w-full min-h-[55vh] max-h-[55vh]"
+                src={item.image.src}
+                alt="item"
+              />
+            </figure>
             <h2 className="text-inherit mt-[1rem] bold">{item.name}</h2>
-            <p className="text-inherit mt-[1rem]">min. of <span className="bold text-inherit">£{item.price} / Any Condition</span></p>
+            <p className="text-inherit mt-[1rem]">
+              {item.pricing}{" "}
+              <span className="bold text-inherit">
+                {item.price} / Any Condition
+              </span>
+            </p>
           </div>
         ))}
       </div>

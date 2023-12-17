@@ -2,30 +2,75 @@ import * as images from '../../public/antiqueAssets.js'
 
 const pricingItems = [
     {
-        name: 'item1',
-        image: images.nantwichClock,
-        price: 325,
+        name: 'Gold Sovereign',
+        image: images.sov,
+        pricing: 'min. of',
+        price: '£325',
+        type: 'Gold'
     },
     {
-        name: 'item2',
-        image: images.nantwichClock,
-        price: 325,
+        name: 'Gold Krugerrand',
+        image: images.kruger,
+        pricing: 'min. of',
+        price: '£1400',
+        type: 'Gold'
     },
     {
-        name: 'item3',
-        image: images.nantwichClock,
-        price: 325,
+        name: 'Silver Tea Set',
+        image: images.teaset,
+        pricing: 'up to',
+        price: '£15 per ounce',
+        type: 'Silver'
     },
     {
-        name: 'item4',
-        image: images.nantwichClock,
-        price: 325,
+        name: 'Scrap Gold, 9K',
+        image: images.scrapgold,
+        pricing: 'up to',
+        price: '£15 per gram',
+        type: 'Gold'
     },
     {
-        name: 'item5',
-        image: images.nantwichClock,
-        price: 325,
+        name: 'Silver Jewellery',
+        image: images.silverjewellery,
+        pricing: 'up to',
+        price: '£325 per ounce',
+        type: 'Silver'
     },
+    {
+        name: 'All models of Rolex',
+        image: images.watches,
+        pricing: 'min. of',
+        price: '500 to £25k',
+        type: 'Watches'
+    },
+    {
+        name: 'Waltham',
+        image: images.waltham,
+        pricing: 'min. of',
+        price: '£25',
+        type: 'Watches'
+    },
+    {
+        name: 'Omega Watches',
+        image: images.omega,
+        pricing: 'min. of',
+        price: '£100 up to £10k',
+        type: 'Watches'
+    },
+    {
+        name: 'Pre-1947 Scrap Silver Coins',
+        image: images.coins,
+        pricing: 'min. of',
+        price: '10x Face Value',
+        type: 'Coins'
+    },
+    {
+        name: 'Collectible Coins Any Age',
+        image: images.collectibleCoin,
+        pricing: '',
+        price: 'Higher Prices for Collectible',
+        type: 'Coins'
+    }, 
 ]
 
 export default pricingItems;

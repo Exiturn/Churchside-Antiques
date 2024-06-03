@@ -1,5 +1,24 @@
 import styles from "./styles.module.css";
 
+export const metadata = {
+  title: "Churchside Antiques",
+  url: "https://churchsideantiques.org.uk",
+  siteName: "Churchside Antiques, Nantwich Gold Buyer",
+  description:
+    "Antique Buying & Selling based in Nantwich | We buy everything from a silver thimble to a grandfather clock. Just ask! Nantwich based gold buyer & seller.",
+  googleSiteVerification: "wX0p2TC1gErEQjTVy5s3V419NxOJY9L0kXzq4nOyffE",
+  keywords: [
+    "antique",
+    "nantwich gold seller",
+    "nantwich antiques",
+    "nantwich gold buyer",
+    "antique gold buyer",
+    "jewellery dealer",
+    "dealer",
+    "churchside antiques",
+  ],
+};
+
 const Hero = () => {
 
   const paddingTop = {

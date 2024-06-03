@@ -56,6 +56,7 @@ const About = () => {
         <section className={styles.aboutAccordionContainer}>
           {accordionData.map(({ title, image, imageAlt, paragraph, id }) => (
             <Accordion
+              key={id}
               id={id}
               title={title}
               image={image}
@@ -65,14 +66,7 @@ const About = () => {
           ))}
         </section>
 
-        <section className="py-6 flex justify-between items-center w-full ">
-          <p className="text-[#C69025] max-w-[40vw]">
-            Every Friday we hold antique valuation and gold buying events around{" "}
-            <span className="bold text-inherit">
-              Bramhall, Cheadle, Wilmslow, Hazel Grove and more.
-            </span>{" "}
-            For further details, contact us below!
-          </p>
+        <section className="py-6 flex justify-center items-center w-full ">
           <figure className="overflow-hidden w-[40vw]">
             <img className="block" src={images.market.src} alt="market stall" />
           </figure>

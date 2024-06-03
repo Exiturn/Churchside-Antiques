@@ -42,6 +42,7 @@ const Hero = () => {
         </div>
 
         <div>
+          <p>Tuesdays: <span className="bold">9am - 2pm</span></p>
           <p>Thursdays: <span className="bold">9am - 3pm</span></p>
           <p>Saturdays: <span className="bold">9am - 4pm</span></p>
           <p className="mt-[1rem] font-medium">Nantwich Indoor Market</p>

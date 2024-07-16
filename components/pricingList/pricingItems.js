@@ -5,14 +5,14 @@ const pricingItems = [
         name: 'Gold Sovereign',
         image: images.sov,
         pricing: 'min. of',
-        price: '£325',
+        price: '£400',
         type: 'Gold'
     },
     {
         name: 'Gold Krugerrand',
         image: images.kruger,
         pricing: 'min. of',
-        price: '£1400',
+        price: '£1750',
         type: 'Gold'
     },
     {
@@ -26,7 +26,7 @@ const pricingItems = [
         name: 'Scrap Gold, 9K',
         image: images.scrapgold,
         pricing: 'up to',
-        price: '£15 per gram',
+        price: '£20 per gram',
         type: 'Gold'
     },
     {

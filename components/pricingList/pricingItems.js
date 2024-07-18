@@ -4,14 +4,14 @@ const pricingItems = [
     {
         name: 'Gold Sovereign',
         image: images.sov,
-        pricing: 'min. of',
+        pricing: 'up to',
         price: '£400',
         type: 'Gold'
     },
     {
         name: 'Gold Krugerrand',
         image: images.kruger,
-        pricing: 'min. of',
+        pricing: 'up to',
         price: '£1750',
         type: 'Gold'
     },

@@ -20,10 +20,9 @@ export const metadata = {
 };
 
 const Hero = () => {
-
   const paddingTop = {
-    paddingTop: 'calc(12.5vh + 1.5rem)'
-  }
+    paddingTop: "calc(12.5vh + 1.5rem)",
+  };
 
   return (
     <container className={styles.heroContainer} style={paddingTop}>
@@ -34,9 +33,7 @@ const Hero = () => {
         </h1>
 
         <div className={styles.heroListContainer}>
-          <h2 className={styles.heroListHeader}>
-            We Buy & Sell
-          </h2>
+          <h2 className={styles.heroListHeader}>We Buy & Sell</h2>
           <ul className={styles.heroList}>
             <li>Scrap Gold & Silver</li>
             <li>Wrist & Pocket Watches</li>
@@ -61,18 +58,29 @@ const Hero = () => {
         </div>
 
         <div>
-          <p>Tuesdays: <span className="bold">9am - 2pm</span></p>
-          <p>Thursdays: <span className="bold">9am - 3pm</span></p>
-          <p>Saturdays: <span className="bold">9am - 4pm</span></p>
-          <p className="mt-[1rem] font-medium">Nantwich Indoor Market</p>
+          <p>
+            Tuesdays: <span className="bold">9am - 2pm</span>
+          </p>
+          <p>
+            Thursdays: <span className="bold">9am - 3pm</span>
+          </p>
+          <p>
+            Saturdays: <span className="bold">9am - 4pm</span>
+          </p>
+          <p className="mt-2 font-medium">Nantwich Indoor Market</p>
+
+          <div className="mt-[2rem]">
+            <p>
+              Thursdays-Saturdays: <span className="bold">9am - 3pm</span>
+            </p>
+            <p className="font-medium mt-2">Sandbach Market</p>
+          </div>
         </div>
       </section>
 
       <section className="mt-4">
         <div className={styles.heroMobileListContainer}>
-          <h2 className={styles.heroMobileListHeader}>
-            We Buy & Sell
-          </h2>
+          <h2 className={styles.heroMobileListHeader}>We Buy & Sell</h2>
           <ul className={styles.heroMobileList}>
             <li>Scrap Gold & Silver</li>
             <li>Wrist & Pocket Watches</li>
@@ -100,16 +108,8 @@ const Hero = () => {
         </div>
       </section>
 
-      <img
-        className={styles.heroBgLine}
-        src="line.webp"
-        alt="line"
-      />
-      <img
-        className={styles.heroBg}
-        src="GoldHandHD.webp"
-        alt="Golden Hand"
-      />
+      <img className={styles.heroBgLine} src="line.webp" alt="line" />
+      <img className={styles.heroBg} src="GoldHandHD.webp" alt="Golden Hand" />
     </container>
   );
 };

@@ -126,12 +126,12 @@ const Contact = () => {
           <section className="w-full py-[5vw] md:py-0 md:pl-[5vw]">
             <div className="flex flex-row w-full justify-start gap-x-[10vw]">
               <div className="text-[#C69025]">
-                <h2 className="text-inherit bold">Mobile</h2>
+                <h2 className="text-inherit bold">Nantwich Line</h2>
                 <p className="text-inherit">07976-612247</p>
               </div>
               <div className="text-[#C69025]">
-                <h2 className="text-inherit bold">Telephone</h2>
-                <p className="text-inherit">01270-780822</p>
+                <h2 className="text-inherit bold">Sandbach Line</h2>
+                <p className="text-inherit">07533-769054</p>
               </div>
             </div>
 
@@ -142,9 +142,12 @@ const Contact = () => {
 
             <p className="mt-8 text-[#C69025]">
               For free valuations, you are welcome to bring items to the market
-              or Simon will be pleased to visit you <span className="bold text-inherit">free of charge or any
-              obligation</span>. <br /> <br /> Alternatively, you can send photos and get a valuation
-              that way.
+              or Simon will be pleased to visit you{" "}
+              <span className="bold text-inherit">
+                free of charge or any obligation
+              </span>
+              . <br /> <br /> Alternatively, you can send photos and get a
+              valuation that way.
             </p>
           </section>
         </div>

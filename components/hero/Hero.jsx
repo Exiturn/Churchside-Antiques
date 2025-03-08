@@ -71,7 +71,13 @@ const Hero = () => {
 
           <div className="mt-[2rem]">
             <p>
-              Thursdays-Saturdays: <span className="bold">9am - 3pm</span>
+              Thursdays: <span className="bold">9am - 3pm</span>
+            </p>
+            <p>
+              Fridays: <span className="bold">9am - 3pm</span>
+            </p>
+            <p>
+              Saturdays: <span className="bold">9am - 3pm</span>
             </p>
             <p className="font-medium mt-2">Sandbach Market</p>
           </div>
@@ -95,12 +101,12 @@ const Hero = () => {
 
       <section className={styles.heroContactContainer}>
         <div>
-          <p className="bold">Mobile</p>
-          <p>07976612247</p>
+          <p className="bold">Nantwich Line</p>
+          <p>07976-612247</p>
         </div>
         <div>
-          <p className="bold">Telephone</p>
-          <p>01270-780822</p>
+          <p className="bold">Sandbach Line</p>
+          <p>07533-769054</p>
         </div>
         <div className="mt-2 sm:mt-0 hidden md:block">
           <p className="bold">Email</p>
